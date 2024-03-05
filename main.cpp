@@ -56,7 +56,7 @@ byte pin_column[COLUMN_NUM] = {COLUMN_ONE, COLUMN_TWO, COLUMN_THREE, COLUMN_FOUR
 
 Keypad keypad = Keypad(makeKeymap(key_layout), pin_rows, pin_column, ROW_NUM, COLUMN_NUM );
 
-const String correct_password = "0102"; // my password
+const String correct_password = "01234"; // my password
 String input_password;                  // the input password
 
 // the setup function runs once when you press reset or power the board
